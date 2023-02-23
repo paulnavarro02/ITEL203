@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><b>Registration</b></title>
+    <body background="BLACKPINK.jpg">
+
+      <center><h1><b>Registration Form</b></h1></center>
+      <style>
+            table{
+                border-collapse:collapse;
+                width:100%;
+            }
+            th,td{
+                border:1px solid pink;
+            }
+      </style>
+      </head>
+        <tr>
+            <center><td><label for="name"><b>Firts Name:</b></label></td></center>
+            <center><input type="text" name="name" id="name" placeholder="Your name"></center>
+        </tr>
+        <tr>
+            <center><td><label for="email"><b>Email:</b>></label></td></center>
+            <center><input type="text" name="email" id="email" placeholder="Your email"></center>
+        </tr>
+        <tr>
+            <center><td><label for="password"><b>Password:</b></label></td></center>
+            <center><input type="password" name="password" id="Password"></center>
+        </tr>
+        <tr>
+            <center><td><label for="phoneNumber"><b>Phone Number:</b></label></td></center>
+            <center><input type="number" name="phoneNumber" id="PhoneNumber"></center>
+        </tr>
+        <tr>
+        <td><center><label><b>Birthday:</b></center>
+            <center><input type = "date" name = "Birthday"></label></center>
+            <center><label for="gender"><b>Gender:</b></label></td></center>
+            <center>Male: <input type="radio" name="gender" value="male"></center>
+            <center>Female: <input type="radio" name="gender" value="female"></center>
+            <center>Other: <input type="radio" name="gender" value="other"></td></center>
+      </tr>
+      <tr>
+        <td><center><label for="language"><b>language</b></label>
+          <center><select name="language" id="language"></center>
+            <center><option value="">Select language</option></center>
+            <center><option value="English">English</option></center>
+            <center><option value="Tagalog">Tagalog</option></center>
+        </td>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <center><b><td colspan="4"><input type="submit" class="submit" value="Register" /></td></b></center>
+      </tr>
+</body>
+</html>
